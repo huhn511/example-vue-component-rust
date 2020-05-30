@@ -1,0 +1,11 @@
+[package]
+name = "example-vue-component-rust"
+version = "0.1.0"
+authors = ["huhn511 <sehe89@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/libs/calculator.rs"
+
+[dependencies]
